@@ -1,3 +1,4 @@
+import os
 print("=============== Calculadora em python 1.0 ================")
 print()
 print("MENU")
@@ -7,7 +8,9 @@ print("Subtrair=====[2]")
 print("Multiplicar==[3]")
 print("Dividir======[4]")
 print()
+
 enter = int(input("INFORME 1,2,3 OU 4 :"))
+
 if(enter == 1):
     print("Somar :")
     n1 = int(input("Informe o Número para SOMAR :"))
@@ -27,3 +30,6 @@ if(enter == 4):
     print("Resultado da Divisão :",n1 / n2)    
 if(enter >=5):
     print("opção invalida.")    
+
+
+os.system("pause")   
